@@ -1,0 +1,224 @@
+{
+  "random_forest": {
+    "train_metrics": {
+      "dataset": "train",
+      "mse": 0.11939133584021132,
+      "rmse": 0.3455305136166867,
+      "mae": 0.17715373716150093,
+      "r2": 0.9837317104151786,
+      "mape": 57.48196140543773
+    },
+    "test_metrics": {
+      "dataset": "test",
+      "mse": 0.7215324034434807,
+      "rmse": 0.849430634862836,
+      "mae": 0.3592679300753041,
+      "r2": 0.9082447818655688,
+      "mape": 65070.70006485121
+    },
+    "cv_metrics": {
+      "cv_scores": [
+        0.9103007611725599,
+        0.9577484257448368,
+        0.9565239695967934,
+        0.9581068469667675,
+        0.9265535984065882
+      ],
+      "cv_mean": 0.9418467203775093,
+      "cv_std": 0.019807598121482427
+    },
+    "feature_importance": [
+      {
+        "feature": "log_likes",
+        "importance": 0.28999768053649594
+      },
+      {
+        "feature": "log_comments",
+        "importance": 0.13503954979294291
+      },
+      {
+        "feature": "days_since_upload",
+        "importance": 0.0929248763850816
+      },
+      {
+        "feature": "engagement_rate",
+        "importance": 0.0797803709608361
+      },
+      {
+        "feature": "comments_per_view",
+        "importance": 0.07592288261059588
+      },
+      {
+        "feature": "log_days_since_upload",
+        "importance": 0.07508429388244003
+      },
+      {
+        "feature": "likes_per_view",
+        "importance": 0.05680608807220889
+      },
+      {
+        "feature": "is_recent",
+        "importance": 0.044643517705007234
+      },
+      {
+        "feature": "log_channel_subscribers",
+        "importance": 0.03342235391888823
+      },
+      {
+        "feature": "channel_video_count",
+        "importance": 0.030041709364471734
+      },
+      {
+        "feature": "duration_seconds",
+        "importance": 0.020689456417775212
+      },
+      {
+        "feature": "log_duration",
+        "importance": 0.019307943012253193
+      },
+      {
+        "feature": "title_length",
+        "importance": 0.013489038471272323
+      },
+      {
+        "feature": "title_word_count",
+        "importance": 0.0099711327535749
+      },
+      {
+        "feature": "title_uppercase_ratio",
+        "importance": 0.00670865878485358
+      },
+      {
+        "feature": "description_length",
+        "importance": 0.0053689663346649695
+      },
+      {
+        "feature": "tag_count",
+        "importance": 0.0034564095883385117
+      },
+      {
+        "feature": "is_long_video",
+        "importance": 0.002837663753912484
+      },
+      {
+        "feature": "is_short_video",
+        "importance": 0.0017756015915666799
+      },
+      {
+        "feature": "has_numbers",
+        "importance": 0.0011907382703668563
+      }
+    ]
+  },
+  "xgboost": {
+    "train_metrics": {
+      "dataset": "train",
+      "mse": 8.571524014522807e-05,
+      "rmse": 0.009258252542744125,
+      "mae": 0.006869049830064348,
+      "r2": 0.9999883204225943,
+      "mape": 0.6871156290453582
+    },
+    "test_metrics": {
+      "dataset": "test",
+      "mse": 0.4565656726146346,
+      "rmse": 0.675696435253757,
+      "mae": 0.15785162381824155,
+      "r2": 0.9419398454130126,
+      "mape": 152486.35606212576
+    },
+    "cv_metrics": {
+      "cv_scores": [
+        0.9463646337139521,
+        0.9930337456110201,
+        0.9914728270151835,
+        0.9914542129844395,
+        0.9720864021693937
+      ],
+      "cv_mean": 0.9788823642987976,
+      "cv_std": 0.018002336667689495
+    },
+    "feature_importance": [
+      {
+        "feature": "log_likes",
+        "importance": 0.5765030980110168
+      },
+      {
+        "feature": "engagement_rate",
+        "importance": 0.2146725058555603
+      },
+      {
+        "feature": "likes_per_view",
+        "importance": 0.0662679448723793
+      },
+      {
+        "feature": "log_comments",
+        "importance": 0.02646271139383316
+      },
+      {
+        "feature": "comments_per_view",
+        "importance": 0.01852639764547348
+      },
+      {
+        "feature": "days_since_upload",
+        "importance": 0.01602788083255291
+      },
+      {
+        "feature": "title_word_count",
+        "importance": 0.015538916923105717
+      },
+      {
+        "feature": "is_short_video",
+        "importance": 0.011460263282060623
+      },
+      {
+        "feature": "tag_count",
+        "importance": 0.008866247721016407
+      },
+      {
+        "feature": "log_days_since_upload",
+        "importance": 0.00805069599300623
+      },
+      {
+        "feature": "title_length",
+        "importance": 0.006939704995602369
+      },
+      {
+        "feature": "has_numbers",
+        "importance": 0.0066948640160262585
+      },
+      {
+        "feature": "channel_video_count",
+        "importance": 0.006391528993844986
+      },
+      {
+        "feature": "log_channel_subscribers",
+        "importance": 0.005917780566960573
+      },
+      {
+        "feature": "duration_seconds",
+        "importance": 0.0037488427478820086
+      },
+      {
+        "feature": "has_clickbait_words",
+        "importance": 0.002351693343371153
+      },
+      {
+        "feature": "has_exclamation",
+        "importance": 0.002010466530919075
+      },
+      {
+        "feature": "log_duration",
+        "importance": 0.001104775001294911
+      },
+      {
+        "feature": "description_length",
+        "importance": 0.0010003371862694621
+      },
+      {
+        "feature": "title_uppercase_ratio",
+        "importance": 0.0009955593850463629
+      }
+    ]
+  }
+}
