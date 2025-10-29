@@ -1,0 +1,176 @@
+{
+  "random_forest": {
+    "train_metrics": {
+      "dataset": "train",
+      "mse": 2.4459696992132822,
+      "rmse": 1.5639596219894176,
+      "mae": 1.1500252001380031,
+      "r2": 0.7858519344295242,
+      "mape": 636.4239474777222
+    },
+    "test_metrics": {
+      "dataset": "test",
+      "mse": 6.535685876265417,
+      "rmse": 2.5564987534253594,
+      "mae": 1.8902652345063806,
+      "r2": 0.5663218989589882,
+      "mape": 11206.995879074364
+    },
+    "cv_metrics": {
+      "cv_scores": [
+        0.5205506197633352,
+        0.5532874880767145,
+        0.5535644678554871,
+        0.5011518309331364,
+        0.47779655260514997
+      ],
+      "cv_mean": 0.5212701918467646,
+      "cv_std": 0.029540653545743426
+    },
+    "feature_importance": [
+      {
+        "feature": "days_since_upload",
+        "importance": 0.2993115730188643
+      },
+      {
+        "feature": "log_days_since_upload",
+        "importance": 0.23476503323714906
+      },
+      {
+        "feature": "is_recent",
+        "importance": 0.12468687367998592
+      },
+      {
+        "feature": "title_uppercase_ratio",
+        "importance": 0.11951663567441713
+      },
+      {
+        "feature": "title_length",
+        "importance": 0.11820735777610508
+      },
+      {
+        "feature": "title_word_count",
+        "importance": 0.07652560369910498
+      },
+      {
+        "feature": "has_numbers",
+        "importance": 0.012190180974299244
+      },
+      {
+        "feature": "has_clickbait_words",
+        "importance": 0.007504566675235959
+      },
+      {
+        "feature": "has_exclamation",
+        "importance": 0.007292175264838367
+      },
+      {
+        "feature": "duration_seconds",
+        "importance": 0.0
+      },
+      {
+        "feature": "log_duration",
+        "importance": 0.0
+      },
+      {
+        "feature": "has_question",
+        "importance": 0.0
+      },
+      {
+        "feature": "is_short_video",
+        "importance": 0.0
+      },
+      {
+        "feature": "is_long_video",
+        "importance": 0.0
+      }
+    ]
+  },
+  "xgboost": {
+    "train_metrics": {
+      "dataset": "train",
+      "mse": 0.2389813550605284,
+      "rmse": 0.488857192910699,
+      "mae": 0.3485229969700276,
+      "r2": 0.9790768483722084,
+      "mape": 40.73811245328188
+    },
+    "test_metrics": {
+      "dataset": "test",
+      "mse": 7.359692707892374,
+      "rmse": 2.712875357972123,
+      "mae": 2.003576245451039,
+      "r2": 0.5116445896833783,
+      "mape": 19211.172689906776
+    },
+    "cv_metrics": {
+      "cv_scores": [
+        0.4254298141453515,
+        0.45632896339644735,
+        0.48928386205555197,
+        0.42619381055925887,
+        0.39077299096277984
+      ],
+      "cv_mean": 0.4376018882238779,
+      "cv_std": 0.03314507204916743
+    },
+    "feature_importance": [
+      {
+        "feature": "is_recent",
+        "importance": 0.676784336566925
+      },
+      {
+        "feature": "days_since_upload",
+        "importance": 0.10942061245441437
+      },
+      {
+        "feature": "log_days_since_upload",
+        "importance": 0.044650785624980927
+      },
+      {
+        "feature": "title_uppercase_ratio",
+        "importance": 0.033698853105306625
+      },
+      {
+        "feature": "title_length",
+        "importance": 0.033668775111436844
+      },
+      {
+        "feature": "title_word_count",
+        "importance": 0.027100350707769394
+      },
+      {
+        "feature": "has_clickbait_words",
+        "importance": 0.02677121013402939
+      },
+      {
+        "feature": "has_numbers",
+        "importance": 0.026614025235176086
+      },
+      {
+        "feature": "has_exclamation",
+        "importance": 0.0212910957634449
+      },
+      {
+        "feature": "duration_seconds",
+        "importance": 0.0
+      },
+      {
+        "feature": "log_duration",
+        "importance": 0.0
+      },
+      {
+        "feature": "has_question",
+        "importance": 0.0
+      },
+      {
+        "feature": "is_short_video",
+        "importance": 0.0
+      },
+      {
+        "feature": "is_long_video",
+        "importance": 0.0
+      }
+    ]
+  }
+}

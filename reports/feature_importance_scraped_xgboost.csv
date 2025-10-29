@@ -1,0 +1,15 @@
+feature,importance
+is_recent,0.67678434
+days_since_upload,0.10942061
+log_days_since_upload,0.044650786
+title_uppercase_ratio,0.033698853
+title_length,0.033668775
+title_word_count,0.02710035
+has_clickbait_words,0.02677121
+has_numbers,0.026614025
+has_exclamation,0.021291096
+duration_seconds,0.0
+log_duration,0.0
+has_question,0.0
+is_short_video,0.0
+is_long_video,0.0
