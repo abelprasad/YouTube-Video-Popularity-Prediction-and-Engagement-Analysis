@@ -30,6 +30,10 @@ requests==2.31.0
 tqdm==4.66.1
 python-dotenv==1.0.0
 
+# Report Generation
+markdown==3.9
+reportlab==4.4.4
+
 # Jupyter
 jupyter==1.0.0
 notebook==7.0.6
