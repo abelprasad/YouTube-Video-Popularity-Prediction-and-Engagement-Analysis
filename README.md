@@ -184,7 +184,7 @@ youtube-popularity-prediction/
 │
 ├── .env.example               # API key template
 ├── requirements.txt           # Dependencies
-├── README.md                  # This file
+└── README.md                  # This file
 ```
 
 ## Models
